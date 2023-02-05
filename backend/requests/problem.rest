@@ -1,0 +1,7 @@
+POST http://localhost:3001/api/problems
+Content-Type: application/json
+
+{
+  "steps": ["step one", "step two", "step three"],
+  "transcription": "i did this because"
+}
