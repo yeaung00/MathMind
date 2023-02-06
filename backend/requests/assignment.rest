@@ -1,0 +1,8 @@
+POST http://localhost:3001/api/assignments
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoibWUiLCJpZCI6IjYzZGVkZmU3NzUyODc4MjIyMDg4MmUwMCIsImlhdCI6MTY3NTU4NDc1NX0.TMa9doT0gV6IqlWCsy9njFbuK3dOPvI4A_HskbgMyIA
+
+{
+  "description": "do 15 problems",
+  "feedback": "show work"
+}

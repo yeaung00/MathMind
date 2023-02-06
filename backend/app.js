@@ -17,6 +17,7 @@ mongoose.connect(config.MONGODB_URI)
 app.use(express.json())
 app.use(cors())
 
+
 app.use('/api/login', loginRouter);
 app.use('/api/users', userRouter);
 app.use(middleware.tokenExtractor);
@@ -26,4 +27,5 @@ app.use(middleware.getCourses);
 app.use('/api/courses', coursesRouter);
 //app.use('/api/userCourses', coursesRouter);
 app.use('/api/users', userCourseRouter);
+
 app.listen(3001, () => console.log('listening on http://localhost:3001'))

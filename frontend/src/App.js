@@ -17,7 +17,7 @@ function App() {
   const [userData, setUserData] = useState();
   const [currentCourse, setCurrentCourse] = useState();
   const [currrentAssignment, setCurrentAssignment] = useState();
-
+  console.log('curr ass', currrentAssignment)
   useEffect(() => {
     const loggedInUser = localStorage.getItem('userData');
     if (loggedInUser) {

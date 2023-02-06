@@ -308,16 +308,24 @@
   gap: 1em;
 }
 .ClassAssignments {
-  width: 900px;
-  height: 150px;
+  width: 870px;
+  height: 80px;
   text-align: center;
+  text-decoration: none;
+  color: inherit;
   background: #779ecb;
   border-radius: 30px;
   position: flex;
+  margin-top: 20px;
   border: 3px solid white;
   left: 50%;
   transform: translate(-15%, 20%);
   border: 1.5px solid white;
+}
+.Assignment-label {
+  color: white;
+  margin-top: 20px;
+  font-size: 25px;
 }
 .existing-assignments {
   top: 40px;
@@ -371,6 +379,7 @@
   height: 280px;
   text-align: left;
   background: #779ecb;
+  color: white;
   border-radius: 30px;
   top: 40%;
 }

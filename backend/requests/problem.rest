@@ -1,7 +1,10 @@
-POST http://localhost:3001/api/problems
+POST http://localhost:3001/api/assignments/problems/63dea28786448290b9292ce5
 Content-Type: application/json
 
 {
-  "steps": ["step one", "step two", "step three"],
+  "explanation": ["the student's mist"],
   "transcription": "i did this because"
 }
+###
+GET http://localhost:3001/api/problems
+Content-Type: application/json

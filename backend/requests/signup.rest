@@ -2,18 +2,16 @@ POST http://localhost:3001/api/users
 Content-Type: application/json
 
 {
-  "username": "me",
+  "username": "ye",
   "password": "password",
-  "role": "teacher"
+  "role": "student"
 }
 
 ###
 POST http://localhost:3001/api/users/me/courses
-Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoibWUiLCJpZCI6IjYzZGVkZmU3NzUyODc4MjIyMDg4MmUwMCIsImlhdCI6MTY3NTU1NzkxNH0.8axodjQ9uE5WIm2xh-Jp0rT4AMahuVvpz3LIMvQ_JZk
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoibWUiLCJpZCI6IjYzZGVkZmU3NzUyODc4MjIyMDg4MmUwMCIsImlhdCI6MTY3NTU3NTI2Mn0.kP0XBUc4uhZNkg1a3lVZb6zyilWw8w_3t7RxuQVIblk
 Content-Type: application/json
 
 {
-  "username": "me",
-  "password": "password",
-  "role": "teacher",
+  "courseName": "AM 3"
 }

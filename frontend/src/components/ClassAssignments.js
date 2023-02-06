@@ -3,7 +3,9 @@ import React from 'react'
 function ClassAssignments({ assignment }) {
   return (
     <div className='ClassAssignments'>
-      {assignment.description}
+      <div className='Assignment-label'>
+        {assignment.description}
+      </div>
     </div>
   )
 }
